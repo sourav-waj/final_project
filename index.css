@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+    display: flex;
+    overflow: hidden;
+    background-color: #8c5b37;
+    padding: 7px 0;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+nav  .image a{
+    padding: 17px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+nav  .links a{
+    padding: 38px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+nav  .links a:hover{
+    background-color: #52260f;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+nav  .search_bar a{
+    padding: 17px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-items: center;
+    float: right;
+    flex-wrap: wrap;
+}
+.search_bar input[type=text] {
+    padding: 6px;
+    margin-top: 4px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+
+ .search_bar button{
+    float: right;
+    padding: 6px 10px;
+    margin-top: 4px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+
+/* Navigation section ends here */
+
+
+  .hero .heading_K{
+    text-align: center;
+    color:#8c5b37 ;
+    font-size: 34px;
+    margin-right: 100px;
+    padding: 10px 0;            
+  }
+  .hero {
+    display: flex;
+    justify-content: center;
+
+  }
+  .paw img{
+    margin-top: 15px;
+    margin-right: 50px;
+  }
+  
+  /* hero section ends here */
+
+  .why_section{
+    background-color: #f7f3e3;
+    display: flex;
+    align-items: flex-start;
+  }
+  .why_section .descrip h2{
+    font-size: 70px;
+    color: #8c5b37;
+    text-align: start;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .why_section .descrip p{
+    text-align: justify;
+    margin: 10px 40px 0px 0px;
+  }
+/* why section ends here */
+
+
+  .new{
+    background-color: #cfd3d9;
+    display: flex;
+    align-items: flex-start;
+  }
+  .new .description h2{
+    font-size: 70px;
+    color: #8c5b37;
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  .new .description p{
+    text-align: justify;
+    margin: 10px 40px 0px 0px;
+  }
+
+
+
+
+  /* category section ends here */
+
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #8c5b37;
+    justify-content: space-around;
+    padding: 30px 0px;
+
+  }
+  .first a, .second a , .third a , .fourth a , .fifth a, .fourth h3{
+    display: flex;
+    flex-direction: column;
+   align-content:center ;
+   text-decoration: none;
+   color: white;
+   margin: 10px 0px;
+   
+  }
+  .first a:hover, .second a:hover , .third a:hover , .fourth a:hover{
+    color: #52260f;
+  }
+  .fifth img{
+    margin-top: 27px;
+  }
+  .first , .second  , .third {
+    margin-top: 32px
+  }
+
+
+/* Footer section ends here */
+
+
+  .key_features{
+    background-color: #cfd3d9;
+    
+   
+    padding-bottom: 10px;
+  }
+  .accordian{
+    cursor: pointer;
+  }
+  .key_features h1{
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+   font-size: 44px;
+   color: #8c5b37;
+  }
+  .key_features h3, .key_features p {
+    max-width: 1100px;
+    padding-top: 5px;
+    
+  }
+  .key_features .first_feature{
+
+    display: flex;
+
+  }
+  .first_feature h3{
+    margin: 10px 210px;
+    color: darkgreen;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .first_answer p{
+    margin-bottom: 30px;
+  }
+  .accordian .first_answer{
+    border-bottom: 2px solid #ffffff; 
+    max-width: 1100px;
+    margin:auto;
+    margin-top: 10px;
+
+  }
+
+  .first_answer{
+    max-height: 0;
+    overflow:hidden;
+    transition: max-height 1.4s ease;
+  }
+  .accordian.active .first_answer{
+    max-height: 300px;
+  }
+
+  .accordian.active i{
+    transform: rotate(180deg);
+  }
+  i{
+    transition: transform 0.5s ease;
+  }
+
+  /* accordian section ends here */
