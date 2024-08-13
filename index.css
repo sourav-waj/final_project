@@ -222,4 +222,100 @@ nav  .search_bar a{
     transition: transform 0.5s ease;
   }
 
+  .accordian{
+    padding-bottom: 30px;
+  }
   /* accordian section ends here */
+
+  /* Food Section start here */
+
+  .food{
+    margin: 30px 0px;
+  }
+  .food h1{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: #8c5b37;
+  }
+  .food h2{
+
+    text-align: center;
+    font-size: 30px;
+    color: darkgreen;
+    margin-bottom: 40px;
+  }
+  .food_section img{
+    height: 30px;
+    width: 20px;
+  }
+
+ .food_section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.card{
+    max-width: 600px;
+    margin: 20px 0;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.card:nth-child(1),
+.card:nth-child(2),
+.card:nth-child(3){
+  display: inline-block;
+}
+
+.card:hover{
+  transform: scale(1.04);
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.card h3{
+    font-size: 24px;
+    color: #333;
+    margin: 15px 0 10px;
+}
+
+.card p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+#load{
+  margin-top: 20px;
+  display: flex;
+  padding: 15px 30px;
+  border: 1px solid gray;
+  color: gray;
+  font-size: 16px;
+  background-color: white;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#load:hover{
+  background-color: darkgreen;
+  border-color: darkgreen;
+  color: white;
+}
