@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact_us.css">
+    <script src="https://kit.fontawesome.com/6270ad8f91.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <div class="image">
+            <a href="index.html"><img src="./images/logo.png" height="80px"></a>
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="About_us.html">About Us</a>
+            <a href="Contact_us.html">Contact Us</a>
+            <a href="API.html">Random Generator</a>
+        </div>
+        <div class="search_bar">
+            <form action="#">
+                <input type="text" placeholder="Search..." name="search">
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+    </nav>
+
+    <main>
+        <section class="contact-section">
+            <h2>Contact Us</h2>
+            <p>We’d love to hear from you! Please fill out the form below or use the provided contact details to get in touch with us.</p>
+            
+            <div class="contact-info">
+                <div>
+                    <h3>Email Us</h3>
+                    <p><a href="gmail">xyz@gmail.com</a></p>
+                </div>
+                <div>
+                    <h3>Call Us</h3>
+                    <p><a href="tel">+1 (459) 5355-353</a></p>
+                </div>
+                <div>
+                    <h3>Visit Us</h3>
+                    <p>Downtown, Calgary</p>
+                </div>
+            </div>
+
+            <form action="submit_form.php" class="contact-form">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 krumble Kibbles. All rights reserved.</p>
+    </footer>
+</body>
+</html>

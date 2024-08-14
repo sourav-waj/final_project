@@ -1,0 +1,41 @@
+
+
+
+
+  .links .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 1070px) {
+    .links a {
+      display: none;
+      float: right;
+    }
+    .search_bar{
+        display: none;
+    }
+
+    .links .icon {
+      display: block;
+      float: right;
+    }
+
+    .links.responsive {
+      position: relative;
+    }
+
+    .links.responsive .icon {
+      position: absolute;
+      right: 40;
+      top: 0;
+    }
+
+    .links.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+    .hero{
+        display: none;
+    }
+  }

@@ -56,7 +56,10 @@ function createSlideshow(images) {
 
     if (images.length > 1) {
         currentPosition = 1;
-        timer = setInterval(() => nextSlide(images, slideshowContainer, currentPosition), 3000);
+        timer = setInterval(() => {
+            nextSlide(images, slideshowContainer, currentPosition);
+            currentPosition = (currentPosition + 1) % images.length;
+        }, 3000);
     }
 }
 
@@ -68,7 +71,6 @@ function nextSlide(images, container, currentPosition) {
     setTimeout(() => {
         slide.style.backgroundImage = `url('${images[currentPosition]}')`;
         slide.style.opacity = 1;
-        currentPosition = (currentPosition + 1) % images.length;
     }, 1500);
 }
 
