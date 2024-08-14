@@ -29,7 +29,7 @@ loadMoreButton.onclick = () => {
 }
 
 
-// interactive navigation bar
+// Responsive navigation bar
 
 function myFunction() {
     var x = document.getElementById("navi");
