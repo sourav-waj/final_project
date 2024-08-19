@@ -5,6 +5,24 @@
   .links .icon {
     display: none;
   }
+  @media screen and (max-width: 1230px){
+    .new .description{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-around;
+    }
+    .new .description h2{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-size: 50px;
+    }
+    /* .new .description p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-size: 12px;
+    } */
+
+  }
 
   @media screen and (max-width: 1070px) {
     .links a {
@@ -38,4 +56,65 @@
     .hero{
         display: none;
     }
+    .why_section .descrip h2{
+      margin-top: 0px;
+      margin-bottom: 0px;
+
+    }
+    .new .description{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-around;
+    }
+    .new .description h2{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-size: 28px;
+    }
+    .new .description p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 910px){
+    .why_section .descrip{
+      display: flex;
+
+    }
+    .why_section .descrip h2{
+      font-size: 30px;
+    }
+    .why_section .descrip p{
+      font-size: 12px;
+    }
+    .new .description h2{
+      font-size: 20px;
+    }
+    .new .description p{
+      font-size: 12px;
+    }
+    .new .description{
+      display: flex;
+      flex-wrap: wrap;
+      align-content: space-around;
+    }
+  }
+  
+
+
+
+
+
+
+  @media screen and (max-width: 600px){
+    .descrip p{
+      font-size: 4px;
+
+    }
+    .descrip h3{
+      font-size: 25px;
+    }
+    
   }

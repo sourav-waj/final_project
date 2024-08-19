@@ -95,6 +95,12 @@ nav  .search_bar a{
     background-color: #f7f3e3;
     display: flex;
     align-items: flex-start;
+    
+  }
+  .why_section .descrip{
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
   }
   .why_section .descrip h2{
     font-size: 70px;
@@ -103,6 +109,8 @@ nav  .search_bar a{
     margin-top: 60px;
     margin-bottom: 40px;
   }
+
+
   .why_section .descrip p{
     text-align: justify;
     margin: 10px 40px 0px 0px;
@@ -114,6 +122,11 @@ nav  .search_bar a{
     background-color: #cfd3d9;
     display: flex;
     align-items: flex-start;
+  }
+  .new .description{
+    display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
   }
   .new .description h2{
     font-size: 70px;
@@ -135,14 +148,17 @@ nav  .search_bar a{
   footer{
     display: flex;
     flex-direction: row;
+    text-wrap: wrap;
     background-color: #8c5b37;
     justify-content: space-around;
+    text-wrap: wrap;
     padding: 30px 0px;
 
   }
   .first a, .second a , .third a , .fourth a , .fifth a, .fourth h3{
     display: flex;
     flex-direction: column;
+    text-wrap: wrap;
    align-content:center ;
    text-decoration: none;
    color: white;
@@ -176,21 +192,29 @@ nav  .search_bar a{
     text-align: center;
     padding: 10px;
     padding-bottom: 20px;
-   font-size: 44px;
+   font-size: 40px;
    color: #8c5b37;
   }
+  .first_answer{
+    display: flex;
+    flex-wrap: wrap;
+  }
   .key_features h3, .key_features p {
-    max-width: 1100px;
+    /* max-width: 1100px; */
     padding-top: 5px;
+    text-align: center;
+    
     
   }
-  .key_features .first_feature{
+  .key_features .accordian{
 
     display: flex;
+    flex-wrap: wrap;
 
   }
+ 
   .first_feature h3{
-    margin: 10px 210px;
+    margin: 10px 100%;
     color: darkgreen;
     font-size: 24px;
     font-weight: 400;
@@ -200,7 +224,7 @@ nav  .search_bar a{
   }
   .accordian .first_answer{
     border-bottom: 2px solid #ffffff; 
-    max-width: 1100px;
+    min-width: 1100px;
     margin:auto;
     margin-top: 10px;
 
@@ -319,7 +343,7 @@ nav  .search_bar a{
   border-color: darkgreen;
   color: white;
 }
-.footer {
+/* .footer {
   text-align: center;
   padding: 10px;
   background-color: #333;
@@ -327,4 +351,32 @@ nav  .search_bar a{
   position: relative;
   bottom: 0;
   width: 100%;
+} */
+footer, .footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #8c5b37;
+  color: white;
+  padding: 30px 0;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+footer a, .footer a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+footer a:hover, .footer a:hover {
+  color: #52260f;
+}
+
+.footer img {
+  margin-top: 10px;
+}
+
+.footer p {
+  margin: 0;
 }
